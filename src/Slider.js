@@ -12,7 +12,8 @@ export default function Slider(){
     <AutoplaySlider
     play={true}
     cancelOnInteraction={false} // should stop playing on user interaction
-    interval={300}
+    interval={1000}
+    buttons = {true}
     >
    <div data-src="https://static.toiimg.com/thumb/msid-95062568,width-280,resizemode-4/95062568.jpg"  />
       <div data-src="https://files.oyebesmartest.com/uploads/preview/virat-kohli-wallpaper-fulecnhd.webp" />
